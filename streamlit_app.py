@@ -7,7 +7,7 @@ number2 = 100
 FIXED_RATE = 0.03
 
 # Access the OpenAI API key from the secrets
-api_key = st.secrets["openai"]
+api_key = st.secrets["OPENAI_SECRET_KEY"]
 
 # Set up the OpenAI API client
 client = OpenAI(api_key=api_key)
