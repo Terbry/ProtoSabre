@@ -28,7 +28,7 @@ def addTwoNumbers(a, b):
     sum = a + b
     return sum
 
-def main(){
+def main()
   # Streamlit UI
   st.title("OpenAI GPT-3.5 Turbo Demo")
   prompt = st.text_input("Enter a prompt:")
@@ -53,4 +53,3 @@ def main(){
   
   # Print the total and its amount in a one complete sentence
   st.write("the total is:", total, "and the amount is:", amount)
-}
